@@ -1,0 +1,54 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 20px;
+ }
+ 
+ .container {
+     max-width: 600px;
+     margin: auto;
+ }
+ 
+ h1 {
+     text-align: center;
+ }
+ 
+ form {
+     margin-bottom: 20px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ form input {
+     flex: 1;
+     padding: 10px;
+     margin-right: 10px;
+ }
+ 
+ form button {
+     padding: 10px 20px;
+ }
+ 
+ table {
+     width: 100%;
+     border-collapse: collapse;
+ }
+ 
+ table th, table td {
+     border: 1px solid #ddd;
+     padding: 10px;
+     text-align: left;
+ }
+ 
+ table th {
+     background-color: #f4f4f4;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: blue;
+ }
+ 
+ a:hover {
+     text-decoration: underline;
+ }
+ 
